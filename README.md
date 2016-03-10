@@ -1,7 +1,7 @@
 # xld-bulk-restarts-plugin
 
 ## Usage
-After installation you will be able to right click on any Folder and execute this Control Task. It will find any Tomcat Server (tomcat.Server type) and invoke the 'stop' on them. After the start jobs completed (or failed), it will execute the 'start' control tasks on them. 
+After installation you will be able to right click on any Folder and execute this Control Task. It will find any Tomcat Server (tomcat.Server type) and invoke the 'stop' on them. After all the stop jobs completed (or failed), it will execute the 'start' control tasks on them. 
 
 ### Example output
 
