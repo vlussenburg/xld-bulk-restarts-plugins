@@ -5,6 +5,7 @@ After installation you will be able to right click on any Folder and execute thi
 
 ### Example output
 
+````
 > Found Tomcat containers: [Infrastructure/folder/gdgf/host1/tc1 [tomcat.Server], Infrastructure/folder/host2/tc1 [tomcat.Server], Infrastructure/folder/gdgf/host1/tc2 [tomcat.Server], Infrastructure/folder/gdgf/host1/tc3 [tomcat.Server], Infrastructure/folder/host2/tc3 [tomcat.Server], Infrastructure/folder/host2/tc99 [tomcat.Server]]
 
 > Executing Control task [stop] for Infrastructure/folder/gdgf/host1/tc1, task id f51eee3a-0422-4a07-9d0e-5ce60326c464
@@ -32,6 +33,7 @@ After installation you will be able to right click on any Folder and execute thi
 > Executing Control task [start] for Infrastructure/folder/host2/tc3, task id 0c3c9b2c-d490-4235-88f4-315fa8f7e0db
 
 > Executing Control task [start] for Infrastructure/folder/host2/tc99, task id 3337dc9c-3169-490b-b18f-2af7db944603
+````
 
 ## Installation
 Build the plugin and drop the JAR from build/libs/ in the \<XLD_SERVER\>/plugins folder. Restart XLD deploy.
